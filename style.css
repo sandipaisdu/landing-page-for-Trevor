@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'ralewaysemibold';
+    src: url('fonts/Raleway-SemiBold-webfont.eot');
+    src: url('fonts/Raleway-SemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Raleway-SemiBold-webfont.woff2') format('woff2'),
+         url('fonts/Raleway-SemiBold-webfont.woff') format('woff'),
+         url('fonts/Raleway-SemiBold-webfont.ttf') format('truetype'),
+         url('fonts/Raleway-SemiBold-webfont.svg#ralewaysemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-image: url('img/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+}
+
+body {
+    font-family: 'ralewaysemibold';
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
+header {
+    margin: 0 auto;
+    text-align: center;
+    height: 165px;
+}
+
+header img {
+    margin: 0 auto;
+    height: 110px;
+    margin-top: 25px;
+}
+
+.content {
+    margin: 0 auto;
+    width: 1000px;
+    height: 490px;
+}
+
+.info {
+    float: left;
+    color: #fffffe;
+}
+
+
+.head {
+font-family: 'ralewaysemibold';
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 35px;
+}
+
+.details h3 {
+font-family: 'ralewaysemibold';
+    line-height: 17px;
+    font-size: 12px;
+}
+
+.details span {
+font-family: 'ralewaysemibold';
+    color: #d0ac53;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+/*FORM CSS*/
+
+.form {
+    float: right;
+	font-family: 'ralewaysemibold';
+}
+
+#fname {
+    margin-top: 35px;
+	font-family: 'ralewaysemibold';
+}
+
+input {
+    background: #fff;
+    width: 220px;
+    height: 40px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    margin-left: 15px;
+    color: #3c3c3b;
+    padding-left: 10px;
+    font-family: 'ralewaysemibold';
+}
+#msg{
+
+    height: 60px;
+    margin-bottom: 10px;
+    margin-left: 14px;
+    width: 233px;
+}
+
+button {
+    width: 235px;
+    height: 45px;
+    background: #272C32;
+    border: 2px solid #B89127;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 2px;
+    margin-left: 15px;
+    cursor: pointer;
+	font-family: 'ralewaysemibold';
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'ralewaysemibold';
+}
+
+input::-webkit-input-placeholder {
+    font-size: 15px;
+    background: #fff;
+    padding-left: 10px;
+    font-family: 'ralewaysemibold';
+}
+
+ input:-moz-placeholder {
+    font-size: 15px;
+    margin-left: 15px;
+    color: #3c3c3b;
+    padding-left: 10px;
+    font-family: 'ralewaysemibold';
+}
+
+:-ms-input-placeholder {
+    font-size: 15px;
+    margin-left: 15px;
+    color: #3c3c3b;
+    padding-left: 10px;
+    font-family: 'ralewaysemibold';
+}
+#msg{
+    font-family: 'ralewaysemibold';
+        color: #3c3c3b;
+        font-size: 15px;
+    margin-left: 15px;
+}
+/*FORM CSS*/
+/* Contact.php*/
+
+.message {
+font-family: 'ralewaysemibold';
+    text-align: center;
+    line-height: 50px;
+    margin-top: 40px;
+
+}
+/* Contact.php*/

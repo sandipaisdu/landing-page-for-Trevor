@@ -1,0 +1,98 @@
+/* Default Layout: 992px.  */
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.info {
+    width: 650px;
+}
+
+.form {
+    width: 350px;
+}
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .wrapper {
+        width: 750px;
+        margin: 0 auto;
+        
+    }
+    .details{
+    line-height: 10px;
+    }
+    .info {
+        width: 450px;
+        float: left;
+    }
+    .form {
+        width: 300px;
+        float: left;
+    }
+}
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    html {}
+    .wrapper {
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .info {
+        width: 300px;
+        float: none;
+        text-align: justify;
+        line-height: 12px;
+    }
+    .info h1 {
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 110px;
+    }
+    .form {
+        width: 300px;
+        clear: both;
+        text-align: center;
+        margin: 0 auto;
+        float: left;
+    }
+    #fname {
+        margin-top: 10px;
+    }
+    .head {
+        margin-left: 10px;
+    }
+    .details h3 {
+        margin-left: 10px;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .wrapper{
+    width: 450px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .info {
+        width: 450px;
+        float: none;
+        text-align: justify;
+    }
+    .form {
+        width: 450px;
+        clear: both;
+        text-align: center;
+        margin: 0 auto;
+        float: left;
+    }
+    .head {
+        margin-left: 10px;
+    }
+    .details h3 {
+        margin-left: 10px;
+    }
+}

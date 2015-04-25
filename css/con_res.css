@@ -1,0 +1,50 @@
+/* Default Layout: 992px.  */
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .wrapper {
+        width: 450px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .message {
+        width: 450px;
+        margin: 0 auto;
+        text-align: justify;
+        float: left;
+        margin-top: 10px;
+    }
+}
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .wrapper {
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .message {
+        width: 300px;
+        margin: 0 auto;
+        text-align: justify;
+        float: left;
+        margin-top: 10px;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .wrapper {
+        width: 450px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .message {
+        width: 450px;
+        margin: 0 auto;
+        text-align: justify;
+        float: left;
+        margin-top: 10px;
+    }
+    
+}
